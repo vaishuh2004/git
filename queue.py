@@ -1,0 +1,14 @@
+queue=[]
+queue.append[1]
+queue.append[2]
+queue.append[3]
+queue.append[10]
+queue.append[5]
+print(queue)
+print(queue.pop(0))
+print(queue[0])
+print(queue.pop(0))
+print(queue.pop(0))
+print(queue.pop(0))
+print(queue)
+print(len(queue)<=0)
